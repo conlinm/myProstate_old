@@ -1,0 +1,32 @@
+* {
+    box-sizing: border-box;
+  }
+
+.main-brand {
+    font-size: 60px;
+    font-family: Ariel, Helvetica,  sans-serif;
+    letter-spacing: .1rem;
+
+    
+    
+}
+.subtitle {
+    font-size: 30px;
+    font-family: Ariel, Helvetica,  sans-serif;
+    letter-spacing: .4rem;
+    margin: 0 0 0 0;
+}
+
+.input-group {
+  margin: 20px 0;
+  font-family: Arial, Helvetica, sans-serif
+  
+}
+.icon {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  stroke-width: 0;
+  stroke: currentColor;
+  fill: currentColor;
+}
