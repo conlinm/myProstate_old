@@ -7,39 +7,55 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>myProstate</title>
     <link rel="stylesheet" href="./style.css">
-    <link rel="icon" href="./favicon.ico" type="image/x-icon">
+    <!-- <link rel="icon" href="./favicon.ico" type="image/x-icon"> -->
+    <script src="https://kit.fontawesome.com/be61d23339.js" crossorigin="anonymous"></script>
     <script src="functions.js" defer></script>
   </head>
   <body>
-
+    <!--   bulma test      -->
+    <section class="hero is-primary">
+      <div class="hero-body">
+        <div class="container">
+          <h1 class="title is-1">
+            my<svg class="icon icon-droplet"><use href="symbol-defs.svg#icon-droplet"></use></svg>prostate
+          </h1>
+          <h2 class="subtitle is-4">
+            Your personal prostate history
+        </div>
+      </div>
+    </section>
     <main>
-        <section class="main-brand">
-        <h1>my<svg class="icon icon-droplet"><use href="symbol-defs.svg#icon-droplet"></use></svg>prostate</h1>
-        </section>
-        <p class="subtitle">
-            <em>Your personal prostate history</em>
-        </p> 
-
-        <h3>Login</h3>
-        
-        <fieldset class="input-group">
-            <legend>Login</legend>
-            <form>
-                <input type="text" class="input-email" name="email" placeholder="Email" />
-                
-                <input type="text" class="input-password" name="password" placeholder="Password">
-            </form>
+      <div class="container">
+        <div class="columns is-centered">
+          <div class="column is-5-tablet is-4-desktop is-3-widescreen">
+            <form action="" class="box">
+              <div class="field">
+                <label for="" class="label">Email</label>
+                <div class="control has-icons-left">
+                  <input type="email" placeholder="e.g. alex@example.com" class="input" required>
+                  <span class="icon is-small is-left">
+                      <i class="fa fa-envelope"></i>
+                    </span>
+                </div>
+              </div>
             
-        </fieldset>
-        <h3>Register</h3>
-        <fieldset class="input-group">
-            <legend>New User</legend>
-            <form>
-                <input type="text" name="name" placeholder="Name">
-                <input type="text" name="email" placeholder="Email">
-                <input type="date" name="dob" placeholder="Date of Birth">
+              <div class="field">
+                <label for="" class="label">Password</label>
+                <div class="control has-icons-left">
+                  <input class="input" type="password" placeholder="********" required>
+                  <span class="icon is-small is-left">
+                    <i class="fa fa-lock"></i>
+                </div>
+              </div>
+            
+              <button class="button is-primary">Sign in</button>
             </form>
-        </fieldset>
+          </div>
+        </div>
+      </div>
+        
+        
+        
     </main>
   </body>
 </html>
