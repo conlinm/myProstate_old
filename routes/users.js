@@ -3,7 +3,7 @@ const path = require("path");
 const router = express.Router();
 
 router.get("/", (req, res) => {
-  res.sendFile("/Users/michaelconlin/myProstate/public/patient.html");
+  res.send("root user route");
 });
 router.get("/register", (req, res) => {
   res.sendFile("/Users/michaelconlin/myProstate/public/register.html");
@@ -12,6 +12,6 @@ router.post("/", (req, res) => {
   res.send("Create a new user");
 });
 router.get("/:id", (req, res) => {
-  res.send("Get user with id: " + req.params.id);
+  res.sendFile("/Users/michaelconlin/myProstate/public/patient.html");
 });
 module.exports = router;
